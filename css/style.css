@@ -1,0 +1,55 @@
+
+.menu ul{
+    list-style-type:none;
+    overflow:hidden;
+}
+.menu li{
+    float: left;
+    padding-left:10%;
+}
+
+.menu li a {
+    display:block;
+    color:aquamarine;
+    text-align:center;
+    margin: 20px 40px;
+    padding: 30px 15px;
+    font-family: 'Press Start 2P', system-ui;
+    letter-spacing:6px;
+    font-size:25px;
+    font-weight:300;
+    text-shadow:3px 2px darkgray;
+    
+}
+
+.menu li a:hover {
+    background-image:linear-gradient(red, orange, yellow, green, blue, indigo, violet) ;
+    opacity: 0.6;
+    border-radius: 30%;
+    border: 3px dashed;
+    border-color:gold;
+    
+}
+
+.title{
+    font-family: 'Pixelify Sans', sans-serif;
+    color:black;
+    letter-spacing: 15px;
+    font-size:75px;
+    text-shadow: 2px 2px darkgray;
+    background-image:linear-gradient(red, orange, yellow, green, blue, indigo, violet) ;
+    opacity:0.8;
+    border-radius: 20%;
+}
+
+body{
+    background-color:black;
+}
+
+.title2{
+    font-family: 'Rubik Iso', system-ui;
+    color:orange;
+    font-size:55px;
+    letter-spacing: 12px;
+    padding-top:60px;
+}
