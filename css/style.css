@@ -5,20 +5,22 @@
 }
 .menu li{
     float: left;
-    padding-left:10%;
+    padding-left:6%;
 }
 
 .menu li a {
     display:block;
     color:aquamarine;
     text-align:center;
-    margin: 20px 40px;
-    padding: 30px 15px;
+    margin: 10px;
+    padding: 2px;
     font-family: 'Press Start 2P', system-ui;
     letter-spacing:6px;
     font-size:25px;
     font-weight:300;
     text-shadow:3px 2px darkgray;
+    margin-top:5%;
+    background-color:darkslateblue;
     
 }
 
@@ -37,13 +39,14 @@
     letter-spacing: 15px;
     font-size:75px;
     text-shadow: 2px 2px darkgray;
-    background-image:linear-gradient(red, orange, yellow, green, blue, indigo, violet) ;
-    opacity:0.8;
-    border-radius: 20%;
+    background-color:white;
+    width:80%;
+    margin-top:6%;
 }
 
 body{
-    background-color:black;
+    background-size: 100% 175%;
+    background-repeat:no-repeat;
 }
 
 .title2{
@@ -51,5 +54,9 @@ body{
     color:orange;
     font-size:55px;
     letter-spacing: 12px;
-    padding-top:60px;
+padding-top:30px;
+}
+audio{
+    background-image:linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+    border-radius:10%;
 }

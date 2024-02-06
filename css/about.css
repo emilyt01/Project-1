@@ -1,0 +1,76 @@
+.menu ul{
+    list-style-type:none;
+    overflow:hidden;
+}
+.menu li{
+    float: left;
+    padding-left:5%;
+}
+
+.menu li a {
+    display:block;
+    color:aquamarine;
+    text-align:center;
+    margin: 10px; 
+    padding: 10px;
+    font-family: 'Press Start 2P', system-ui;
+    letter-spacing:6px;
+    font-size:25px;
+    font-weight:300;
+    text-shadow:3px 2px darkgray;
+}
+
+.menu li a:hover {
+    background-image:linear-gradient(red, orange, yellow, green, blue, indigo, violet) ;
+    opacity: 0.6;
+    border-radius: 30%;
+    border: 3px dashed;
+    border-color:gold;
+}
+h1{
+    
+    letter-spacing:20px;
+    font-size:60px;
+    padding-top:6%;
+    font-weight:600px;
+    font-family: 'Wallpoet', sans-serif;
+    color:gray;
+    text-shadow: 4px 4px black;
+}
+
+body{
+    background-size: 150% 100%;
+    background-repeat: no-repeat;
+}
+img{
+    width: 350px;
+    border-radius: 22%;
+    opacity:0.9;
+    margin-left:60%;
+    border:20px;
+}
+p{
+    font-family: 'VT323', monospace;
+    font-size:28px;
+    letter-spacing:2px;
+}
+h2{
+    font-family: 'Pixelify Sans', sans-serif;
+    letter-spacing:7px;
+    font-size:40px;
+    font-weight:500px;
+    margin-top:15%;
+}
+.list{
+    font-family: 'Wallpoet', sans-serif;
+    padding-top:10%;
+    font-size:28px;
+    letter-spacing:3px;
+    color:wheat;
+    text-shadow: 2px 2px black;
+}
+.video{
+    width:400px;
+    border: 15px groove darkblue;
+    margin-top:5%;
+}
